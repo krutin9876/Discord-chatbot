@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "ae828b7a-ae22-48fd-9d53-a52ea370a458",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Hospital Data System",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "fcf35f39-cbc1-448f-8c70-6c2d8e085b70",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "\nResearch Partner Systems\n",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "1545f3e4-c167-4690-9149-24c284d382eb",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "IoT Sequencing Devices",
@@ -386,6 +386,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -469,7 +470,6 @@
               ]
             },
             "id": "f2dde0f3-55b8-40ce-9e00-330aa0068fcd",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Data Validation & \nCleaning Module\n",
@@ -505,6 +505,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -588,7 +589,6 @@
               ]
             },
             "id": "bdb07b36-83af-4183-ad12-ffc635a94ba0",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Authentication \n&  \nAccess \nControl Module\n",
@@ -624,6 +624,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -707,7 +708,6 @@
               ]
             },
             "id": "f31f7bc9-f7d0-448a-b89e-3d618ebbae4f",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Data Analysis \nPipeline\n",
@@ -743,6 +743,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -826,7 +827,6 @@
               ]
             },
             "id": "2328ed39-1856-4376-a57e-49799754c0be",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "\n\nAudit Logging \nService\n\n",
@@ -862,6 +862,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -945,7 +946,6 @@
               ]
             },
             "id": "1cdbf321-2957-4ecb-94a6-657702e839b7",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Monitoring \n& \nAlerting Module",
@@ -984,6 +984,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1067,7 +1068,6 @@
               ]
             },
             "id": "44fb90e4-6346-4b37-9310-d419ef2d2b21",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Anonymization Service\n",
@@ -1107,6 +1107,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1190,7 +1191,6 @@
               ]
             },
             "id": "999555a2-b761-4deb-833c-c545e9eb0a06",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "System Logs Archive",
@@ -1784,6 +1784,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1867,7 +1868,6 @@
               ]
             },
             "id": "2e7d343f-aa22-4512-a663-8a24ee3e5e0a",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Research Algorithm Repository\n",
@@ -1904,6 +1904,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1987,7 +1988,6 @@
               ]
             },
             "id": "08be044b-f40c-43c0-9f22-ae786ebef950",
-            "zIndex": 12,
             "data": {
               "type": "tm.Actor",
               "name": "Authorized \nResearchers",
@@ -2020,6 +2020,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2103,7 +2104,6 @@
               ]
             },
             "id": "9e4ad22c-083a-4a6e-9303-4672d0721f24",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "System  \nAdmins \n(Privileged Users)",
